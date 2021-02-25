@@ -1,0 +1,311 @@
+/* .label-control {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.25rem;
+    color: #555;
+    opacity: 1;
+    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+    cursor: text;
+    transition: all 0.2s ease;} */
+
+    .logo img{
+        /* background-color: rgb(156, 157, 158); */
+        /* height: 10%; */
+        width: 40%;
+    }
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header{
+   display: flex;
+   justify-content: center;
+}
+header .head{
+    width: 90%;
+ }
+
+.bodyImg>img{
+width: 100%;
+margin-top: 10px;
+}
+
+
+
+.img_box {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/bsb.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.img_box2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/indus_machine.jpg);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    border-radius: 2px;
+}
+.img_box3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/bb1.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.img_box4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/grouundsupport.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.img_box5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/lubeoil.jpg);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.img_box6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/parts.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.img_box7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/personalProtection.png);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.img_box8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0,0.1)),url(../images/chillerplant.jpg);
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}   
+
+.allImg{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 30%;
+    
+}
+
+
+.form{
+    /* display: flex;
+    justify-content: center; */
+    margin: 100px 100px 40px 100px;
+    border: 1px solid #C4BFBF;
+    border-radius: 10px;
+    background-color: rgb(243, 241, 241);
+}
+.text h2{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+input{
+    width: 200%;
+    padding: 15px;
+    margin-top: 7px;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid gray;
+}
+#select{
+    padding: 15px;
+    margin: 7px 0px 7px 0px; 
+    width: 200%;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid gray ;
+}
+#txtarea{
+    padding: 15px;
+    margin: 7px 0px 7px 0px; 
+    width: 200%;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid gray ; 
+}
+.input{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 30%;
+
+}
+#submit{
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: rgb(59, 60, 61);
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.template-demo{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.btn-facebook{
+    margin-right: 20px;
+    background-color: teal ;
+    color: white;
+}
+.btn-twitter{
+    margin-right: 20px;
+    background-color: teal ;
+    color: white;
+}
+.btn-instagram{
+    margin-right: 20px;
+    background-color: teal ;
+    color: white;
+}
+.btn-linkedin{
+    margin-right: 20px;
+    background-color: teal ;
+    color: white;
+}
+.btn-facebook:hover,.btn-twitter:hover,.btn-instagram:hover,.btn-linkedin:hover{
+    border: 1px solid #C4BFBF;
+    background-color: white ;
+    color: black;
+}
+.foooterMaterial{
+    margin: 40px 0px 0px 0px !important;
+    /* border-color: 2px solid white; */
+}
+.first{
+    margin-left: 40px !important;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.middle{
+    margin-left: 40px !important;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.last{
+    margin-left: 40px !important;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.footer{
+    background-color: rgb(57, 58, 58);
+    color: white;
+    margin-top: 30px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.copyright>p{
+    margin: 5px;
+}
+@media screen and (max-width:1090px){
+
+  
+    input{
+        width: 150%;
+    }
+    #select{
+        width: 150%;
+    }
+    #txtarea{
+        width: 150%;
+    }
+    
+
+}
+@media screen and (max-width:880px){
+
+  
+    input{
+        width: 100%;
+    }
+    #select{
+        width: 100%;
+    }
+    #txtarea{
+        width: 100%;
+    }
+    
+
+}
+@media screen and (max-width:650px){
+
+
+    .img{
+        display: block;
+        width: 70%;
+        margin-left: 70px;
+        
+    }
+    .form{
+        margin: 30px;
+    }
+
+    input{
+        width: 100%;
+    }
+    .input{
+        margin-left: 140px;
+    }
+    #select{
+        width: 100%;
+    }
+    #txtarea{
+        width: 100%;
+    }
+    
+
+}
+@media screen and (max-width:420px){
+
+    .input{
+        margin-left: 40px;
+    }
+    .template-demo{
+        margin-left: 60px;
+    }
+
+}

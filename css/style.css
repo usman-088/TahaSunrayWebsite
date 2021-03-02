@@ -1,23 +1,12 @@
-/* .label-control {
-    position: absolute;
-    top: 3.5rem;
-    left: 1.25rem;
-    color: #555;
-    opacity: 1;
-    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
-    cursor: text;
-    transition: all 0.2s ease;} */
 
-    .logo img{
-        /* background-color: rgb(156, 157, 158); */
-        /* height: 10%; */
-        width: 40%;
-    }
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
+html{
+    scroll-behavior: smooth;
 }
+
+ .logo img{
+     width: 40%;
+ }
+
 
 header{
    display: flex;
@@ -138,6 +127,7 @@ input{
     border: none;
     border: 2px solid gray;
 }
+
 #select{
     padding: 15px;
     margin: 7px 0px 7px 0px; 
@@ -161,6 +151,13 @@ input{
 
 }
 #submit{
+    
+    width: 200%;
+    padding: 15px;
+    margin-top: 7px;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid gray;
     margin-bottom: 50px;
     cursor: pointer;
     background-color: rgb(59, 60, 61);
@@ -241,6 +238,25 @@ input{
 .copyright>p{
     margin: 5px;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-image: url(../images/up-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    background-color: rgb(38, 39, 38);
+    /* transform: translateY(100px); */
+    /* and a transition */
+    /* transition: all 3s ease; */
+}
+.back-to-top:hover {
+    background-color: rgb(95, 94, 94);
+    
+}
 @media screen and (max-width:1090px){
 
   
@@ -251,6 +267,9 @@ input{
         width: 150%;
     }
     #txtarea{
+        width: 150%;
+    }
+    #submit{
         width: 150%;
     }
     
@@ -268,6 +287,10 @@ input{
     #txtarea{
         width: 100%;
     }
+    #submit{
+        width: 100%;
+    }
+    
     
 
 }
@@ -296,6 +319,10 @@ input{
     #txtarea{
         width: 100%;
     }
+    #submit{
+        width: 100%;
+    }
+    
     
 
 }
@@ -306,6 +333,15 @@ input{
     }
     .template-demo{
         margin-left: 60px;
-    }
+    }   
 
 }
+
+@media (min-height: 200px) {
+    #navbar {
+        position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+  }
